@@ -1,0 +1,63 @@
+/* Ví dụ CSS để style Navbar và footer theo FPT style */
+
+:root {
+  --primary-color: #054ea4;   /* xanh dương đậm kiểu FPT */
+  --accent-color: #f57c00;    /* cam / vàng nổi bật */
+  --nav-bg: var(--primary-color);
+  --nav-text: #ffffff;
+  --footer-bg: #0d1736;       /* tối hơn màu navy */
+}
+
+.layout-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header navbar */
+.header-nav {
+  background-color: var(--nav-bg);
+}
+.header-nav .logo {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: var(--nav-text);
+}
+.header-nav .logo:hover {
+  color: var(--accent-color);
+}
+.header-nav .nav-link {
+  color: var(--nav-text);
+  transition: color 0.2s;
+}
+.header-nav .nav-link:hover {
+  color: var(--accent-color);
+}
+
+/* Main content area */
+.content-main {
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--nav-text);
+}
+.footer p {
+  margin: 0;
+  color: var(--nav-text);
+}
+
+/* Nút nổi bật sử dụng accent color */
+.btn-accent {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #fff;
+}
+.btn-accent:hover {
+  background-color: darken(var(--accent-color), 10%);
+  border-color: darken(var(--accent-color), 10%);
+}

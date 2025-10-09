@@ -2,63 +2,51 @@
   "products": [
     {
       "id": 1,
-      "name": "iPhone 15 Pro Max 256GB",
-      "price": 30990000,
-      "image": "https://via.placeholder.com/300x200?text=iPhone+15+Pro+Max"
+      "name": "OPPO Reno 12 Pro",
+      "price": 13990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/325225/oppo-reno12-pro-1.jpg"
     },
     {
       "id": 2,
-      "name": "Samsung Galaxy S24 Ultra 512GB",
-      "price": 28990000,
-      "image": "https://via.placeholder.com/300x200?text=Galaxy+S24+Ultra"
+      "name": "Xiaomi 14T Pro",
+      "price": 15990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/325224/xiaomi-14t-pro.jpg"
     },
     {
       "id": 3,
-      "name": "Xiaomi 14 Ultra 12GB/512GB",
-      "price": 22990000,
-      "image": "https://via.placeholder.com/300x200?text=Xiaomi+14+Ultra"
+      "name": "Samsung Galaxy S24",
+      "price": 21990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/329783/samsung-galaxy-s24.jpg"
     },
     {
       "id": 4,
-      "name": "OPPO Find X7 Pro",
-      "price": 19990000,
-      "image": "https://via.placeholder.com/300x200?text=OPPO+Find+X7+Pro"
+      "name": "iPhone 16 Pro",
+      "price": 28990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/331689/iphone-16-pro.jpg"
     },
     {
       "id": 5,
-      "name": "iPad Pro M4 11 inch 256GB",
-      "price": 24990000,
-      "image": "https://via.placeholder.com/300x200?text=iPad+Pro+M4"
+      "name": "Vivo V30",
+      "price": 9990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/322985/vivo-v30.jpg"
     },
     {
       "id": 6,
-      "name": "MacBook Air M3 13 inch 512GB",
-      "price": 31990000,
-      "image": "https://via.placeholder.com/300x200?text=MacBook+Air+M3"
+      "name": "Realme 12+",
+      "price": 8990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/322986/realme-12-plus.jpg"
     },
     {
       "id": 7,
-      "name": "Apple Watch Ultra 2",
-      "price": 20990000,
-      "image": "https://via.placeholder.com/300x200?text=Apple+Watch+Ultra+2"
+      "name": "Infinix Zero 30",
+      "price": 7490000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/321225/infinix-zero-30.jpg"
     },
     {
       "id": 8,
-      "name": "AirPods Pro 2 USB-C",
-      "price": 5490000,
-      "image": "https://via.placeholder.com/300x200?text=AirPods+Pro+2"
-    },
-    {
-      "id": 9,
-      "name": "Dell XPS 13 Plus 2024",
-      "price": 39990000,
-      "image": "https://via.placeholder.com/300x200?text=Dell+XPS+13+Plus"
-    },
-    {
-      "id": 10,
-      "name": "Asus ROG Strix G16",
-      "price": 35990000,
-      "image": "https://via.placeholder.com/300x200?text=Asus+ROG+Strix+G16"
+      "name": "Tecno Camon 30 Pro",
+      "price": 6990000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/320012/tecno-camon-30-pro.jpg"
     }
   ]
 }

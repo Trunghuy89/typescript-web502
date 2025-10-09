@@ -1,11 +1,11 @@
 {
   "name": "web502-base",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "npx json-server-auth db.json",
+    "server": "npx json-server-auth db.json --watch --port 3000",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

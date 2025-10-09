@@ -1,30 +1,32 @@
-import { Routes, Route } from "react-router-dom";
-import Layout from "./layouts/layout";
+import { Toaster } from "react-hot-toast";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Products from "./pages/Products";
-import ProductDetail from "./pages/ProductDetail";
+import Users from "./components/User";
+import List from "./pages/List";
+import Add from "./pages/Add";
+import Edit from "./pages/Edit";
+import ClientLayout from "./layouts/ClientLayout";
+import AdminLayout from "./layouts/AdminLayout";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        {/* Trang chủ */}
-        <Route index element={<Home />} />
+    <>
+      <Routes>
+        {/* Client Layout */}
+        <Route path="/" element={<ClientLayout />}>
+          <Route index element={<Home />} />
+          <Route path="users" element={<Users />}></Route>
+        </Route>
 
-        {/* Trang danh sách sản phẩm */}
-        <Route path="products" element={<Products />} />
-
-        {/* Trang chi tiết sản phẩm */}
-        <Route path="products/:id" element={<ProductDetail />} />
-
-        {/* Các trang khác */}
-        <Route path="news" element={<h1>Tin tức</h1>} />
-        <Route path="about" element={<h1>About</h1>} />
-      </Route>
-
-      {/* Trang không tồn tại */}
-      <Route path="*" element={<h1>404 - Not Found</h1>} />
-    </Routes>
+        {/* Admin Layout */}
+        <Route path="/admin" element={<AdminLayout />}>
+          <Route path="list" element={<List />}></Route>
+          <Route path="add" element={<Add />}></Route>
+          <Route path="edit" element={<Edit />}></Route>
+        </Route>
+      </Routes>
+      <Toaster />
+    </>
   );
 }
 

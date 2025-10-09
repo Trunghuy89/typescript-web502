@@ -1,42 +1,97 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --primary-color: #054ea4;
+  --accent-color: #f57c00;
+  --footer-bg: #0d1736;
+}
+
+/* ======== CLIENT LAYOUT ======== */
+.layout-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-nav {
+  background-color: var(--primary-color);
+  padding: 12px 0;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  color: var(--accent-color);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link {
+  color: #fff;
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-link:hover {
+  color: var(--accent-color);
 }
 
-.card {
-  padding: 2em;
+.footer {
+  background-color: var(--footer-bg);
+  color: white;
+  padding: 15px 0;
+  text-align: center;
 }
 
-.read-the-docs {
-  color: #888;
+/* ======== ADMIN LAYOUT ======== */
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar-title {
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 15px;
+}
+
+.sidebar-menu a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sidebar-menu a:hover {
+  color: var(--accent-color);
+}
+
+.admin-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.admin-header {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 20px;
 }

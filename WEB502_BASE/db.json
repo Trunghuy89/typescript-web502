@@ -4,49 +4,57 @@
       "id": 1,
       "name": "OPPO Reno 12 Pro",
       "price": 13990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/325225/oppo-reno12-pro-1.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 2,
       "name": "Xiaomi 14T Pro",
       "price": 15990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/325224/xiaomi-14t-pro.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 3,
       "name": "Samsung Galaxy S24",
       "price": 21990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/329783/samsung-galaxy-s24.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 4,
       "name": "iPhone 16 Pro",
       "price": 28990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/331689/iphone-16-pro.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 5,
       "name": "Vivo V30",
       "price": 9990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/322985/vivo-v30.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 6,
       "name": "Realme 12+",
       "price": 8990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/322986/realme-12-plus.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 7,
       "name": "Infinix Zero 30",
       "price": 7490000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/321225/infinix-zero-30.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
       "id": 8,
       "name": "Tecno Camon 30 Pro",
       "price": 6990000,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/320012/tecno-camon-30-pro.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+    },
+    {
+      "id": 1,
+      "name": "OPPO Reno 12 Pro333",
+      "price": "123",
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "thgyh",
+      "description": "ỵyyu"
     }
   ]
 }

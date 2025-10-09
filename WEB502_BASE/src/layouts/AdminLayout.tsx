@@ -3,28 +3,34 @@ import "../App.css";
 
 const AdminLayout = () => {
   return (
-    <div className="admin-container">
+    <div className="admin-layout d-flex min-vh-100">
       {/* Sidebar */}
-      <aside className="sidebar">
-        <h4 className="sidebar-title">Admin Panel</h4>
-        <ul className="sidebar-menu">
-          <li>
-            <Link to="/admin/list">Danh sách</Link>
+      <aside className="bg-dark text-white p-3" style={{ width: "250px" }}>
+        <h4 className="fw-bold mb-4 text-center">⚙️ Admin Panel</h4>
+        <ul className="nav flex-column">
+          <li className="nav-item mb-2">
+            <Link to="/admin/list" className="nav-link text-white">
+              📋 Danh sách sản phẩm
+            </Link>
           </li>
-          <li>
-            <Link to="/admin/add">Thêm sản phẩm</Link>
+          <li className="nav-item mb-2">
+            <Link to="/admin/add" className="nav-link text-white">
+              ➕ Thêm sản phẩm
+            </Link>
           </li>
-          <li>
-            <Link to="/">Trang người dùng</Link>
+          <li className="nav-item mt-4">
+            <Link to="/" className="btn btn-outline-light w-100">
+              ↩️ Quay lại trang người dùng
+            </Link>
           </li>
         </ul>
       </aside>
 
       {/* Nội dung chính */}
-      <div className="admin-content">
-        <h4 className="admin-header">Khu vực quản trị</h4>
+      <main className="flex-fill p-4 bg-light">
+        <h3 className="mb-4 text-center">🧭 Khu vực quản trị</h3>
         <Outlet />
-      </div>
+      </main>
     </div>
   );
 };

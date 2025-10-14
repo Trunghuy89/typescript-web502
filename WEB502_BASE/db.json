@@ -1,59 +1,85 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "OPPO Reno 12 Pro",
       "price": 13990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Xiaomi 14T Pro",
       "price": 15990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Samsung Galaxy S24",
       "price": 21990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "iPhone 16 Pro",
       "price": 28990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Vivo V30",
       "price": 9990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Realme 12+",
       "price": 8990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Infinix Zero 30",
       "price": 7490000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Tecno Camon 30 Pro",
       "price": 6990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"    },
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "34567890"
+    },
     {
-      "id": 1,
+      "id": "1",
       "name": "OPPO Reno 12 Pro333",
       "price": "123",
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
       "brand": "thgyh",
       "description": "ỵyyu"
+    },
+    {
+      "id": "a2a8",
+      "name": "trung huy",
+      "price": 0,
+      "brand": "34567890",
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "description": ""
+    },
+    {
+      "id": "43b4",
+      "name": "trung huy",
+      "price": "-3",
+      "brand": "34567890",
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "description": ""
+    },
+    {
+      "id": "1da0",
+      "name": "iphone16 ",
+      "price": "-1111",
+      "brand": "34567890",
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "description": "wqderghjkl;"
     }
   ]
 }

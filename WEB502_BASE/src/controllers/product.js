@@ -47,12 +47,3 @@ const productSchema = Joi.object({
         }),
 });
 
-// ====================================
-// B. CÁC HÀM CONTROLLER (CRUD Logic)
-// ... (Các hàm getProducts, getProductById, addProduct, updateProduct, deleteProduct giữ nguyên)
-// ...
-// ====================================
-
-// Vì các hàm Controller quá dài, tôi chỉ cung cấp phần Schema và bạn có thể dán vào file.
-// Vui lòng đảm bảo bạn DÁN ĐÈ lên toàn bộ nội dung file src/controllers/product.js
-// để đảm bảo hàm validateRequest và các hàm CRUD bên dưới vẫn hoạt động bình thường.

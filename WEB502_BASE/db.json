@@ -1,85 +1,91 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "OPPO Reno 12 Pro",
-      "price": 13990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
-    },
-    {
       "id": "2",
       "name": "Xiaomi 14T Pro",
       "price": 15990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "Xiaomi",
+      "description": "Camera chất lượng cao."
     },
     {
       "id": "3",
       "name": "Samsung Galaxy S24",
       "price": 21990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "Samsung",
+      "description": "Flagship từ Samsung."
     },
     {
       "id": "4",
       "name": "iPhone 16 Pro",
       "price": 28990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "Apple",
+      "description": "Hiệu năng đỉnh cao."
     },
     {
       "id": "5",
       "name": "Vivo V30",
       "price": 9990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "Vivo",
+      "description": "Thiết kế mỏng nhẹ."
     },
     {
       "id": "6",
       "name": "Realme 12+",
       "price": 8990000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "Realme",
+      "description": "Pin trâu, sạc nhanh."
     },
     {
       "id": "7",
       "name": "Infinix Zero 30",
       "price": 7490000,
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg"
+      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
+      "brand": "Infinix",
+      "description": "Màn hình cong tràn viền."
     },
     {
       "id": "8",
       "name": "Tecno Camon 30 Pro",
       "price": 6990000,
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
-      "brand": "34567890"
+      "brand": "Tecno",
+      "description": "Chuyên gia chụp ảnh."
     },
     {
-      "id": "1",
-      "name": "OPPO Reno 12 Pro333",
-      "price": "123",
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
-      "brand": "thgyh",
-      "description": "ỵyyu"
-    },
-    {
-      "id": "a2a8",
+      "id": "fd49",
       "name": "trung huy",
-      "price": 0,
-      "brand": "34567890",
+      "price": 11,
+      "brand": "ujikol;'",
       "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
-      "description": ""
-    },
+      "description": "sedrgyhujkl"
+    }
+  ],
+  "users": [
     {
-      "id": "43b4",
+      "id": "45e9",
       "name": "trung huy",
-      "price": "-3",
-      "brand": "34567890",
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
-      "description": ""
+      "phone": "0328722178",
+      "email": "admin@gmail.com",
+      "password": "1"
     },
     {
-      "id": "1da0",
-      "name": "iphone16 ",
-      "price": "-1111",
-      "brand": "34567890",
-      "image": "https://topesdegama.com/app/uploads-topesdegama.com/2025/03/xiaomi-15t-pro-filtraciones-3.jpg",
-      "description": "wqderghjkl;"
+      "id": "01bb",
+      "name": "huy",
+      "phone": "0328722179",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "b1a3",
+      "name": "tyu",
+      "phone": "1",
+      "email": "huy@gmail.com",
+      "password": "123456"
     }
   ]
 }
